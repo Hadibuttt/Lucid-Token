@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title data-react-helmet="true">Luxury Electric Cars | Lucid Motors</title>
     <meta name="generator" content="Gatsby 4.4.0" />
-    <link as="script" rel="preload" href="js/webpack-runtime-c75098e90a7f47456c8e.js" />
-    <link as="script" rel="preload" href="js/framework-d167f76d988bd485db01.js" />
-    <link as="script" rel="preload" href="js/dc6a8720040df98778fe970bf6c000a41750d3ae-0a8a1cc961ad565542b7.js" />
-    <link as="script" rel="preload" href="js/app-709220d4c330efadff93.js" />
-    <link as="script" rel="preload" href="js/bb9b783790aa1e4cc3ae1d401980e61f48429e2e-b13a8ab14cc8e761eaff.js" />
-    <link as="script" rel="preload" href="js/4ef5af2340dffcf5a782309c1a94fd8bfeb25003-e4a5a6741128921c7571.js" />
-    <link as="script" rel="preload" href="js/component---src-pages-index-js-9faf3d68ccab814bec18.js" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="{{asset('assets/lucid-logo.png')}}" type="image/gif" sizes="16x16">
+    <link as="script" rel="preload" href="{{asset('js//webpack-runtime-c75098e90a7f47456c8e.js')}}" />
+    <link as="script" rel="preload" href="{{asset('js/framework-d167f76d988bd485db01.js')}}" />
+    <link as="script" rel="preload" href="{{asset('js/dc6a8720040df98778fe970bf6c000a41750d3ae-0a8a1cc961ad565542b7.js')}}" />
+    <link as="script" rel="preload" href="{{asset('js/app-709220d4c330efadff93.js')}}" />
+    <link as="script" rel="preload" href="{{asset('js/bb9b783790aa1e4cc3ae1d401980e61f48429e2e-b13a8ab14cc8e761eaff.js')}}" />
+    <link as="script" rel="preload" href="{{asset('js/4ef5af2340dffcf5a782309c1a94fd8bfeb25003-e4a5a6741128921c7571.js')}}" />
+    <link as="script" rel="preload" href="{{asset('js/component---src-pages-index-js-9faf3d68ccab814bec18.js')}}" />
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
 </head>
 <body>
 <div id="___gatsby">
@@ -54,18 +55,19 @@
         <div class="HomePageHero-module--background--D29D5" style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
             <div class="MediaBackgroundVideo-module--container--REuoN">
 
-        <video autoplay loop muted id="myVideo">
+        <video poster="{{asset('assets/bg.jpeg')}}" autoplay loop muted id="myVideo">
         <source src="{{asset('assets/lucid-token.mp4')}}" type="video/mp4">
         </video>
              
             </div></div>
-                <div class="HomePageHero-module--content--yJZNz" style="transform: translate3d(0px, 0px, 0px); opacity: 1; visibility: inherit;">
+        <div class="HomePageHero-module--content--yJZNz" style="transform: translate3d(0px, 0px, 0px); opacity: 1; visibility: inherit;">
+            <center><img style="margin-top:-50px; ;" width="150px" src="{{asset('assets/lucid-logo.png')}}" alt="" srcset=""></center>
                     <h1 class="HomePageHero-module--heading--MfVSi" style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);">Lucid Token</h1>
                     <p class="HomePageHero-module--paragraph--x--WF" style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);"></p><div class="HomePageHero-module--buttons--DJaXn">
                         <div style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
                             <a class="ButtonPrimary-module--button--X96ws ButtonPrimary-module--white--RDa7K HomePageHero-module--button--dr+Un" aria-label="Discover Air" href="/air">
                                 <canvas class="ButtonPrimary-module--background--YWGzS" width="160" height="55"></canvas><span class="ButtonPrimary-module--label--KF5H4 ButtonPrimary-module--label--black--4vvZ9">Discover Air</span></a></div>
-                                <div><a class="ButtonTertiaryComponent-module--button--KwH-7 HomePageHero-module--button--dr+Un" href="/air/reserve" style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);"><span class="ButtonTertiaryComponent-module--label--8GU7u">Reserve now<span class="ButtonTertiaryComponent-module--line--d3Nqn" style="transform-origin: 100% 50%; transform: translate(0px, 0px);"></span></span></a></div></div></div>
+                                <div><a class="ButtonTertiaryComponent-module--button--KwH-7 HomePageHero-module--button--dr+Un" href="https://bscscan.com/address/0x36b6b35c72271b2b833ed24ffc63372fc97b5f7e" style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);"><span class="ButtonTertiaryComponent-module--label--8GU7u">Contract Address<span class="ButtonTertiaryComponent-module--line--d3Nqn" style="transform-origin: 100% 50%; transform: translate(0px, 0px);"></span></span></a></div></div></div>
                                 <ul id="cookieMargin" class="HomePageHero-module--list--Svbm5"><li style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);"><div>
                                     <h4 class="Spec-module--label--pnzG1">Official EPA range up to¹</h4>
                                     <p class="Spec-module--value--1FOCP">520 mi</p></div></li>
